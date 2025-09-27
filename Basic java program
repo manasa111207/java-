@@ -1,0 +1,28 @@
+//1.
+public class Main {
+public static void main(String[] args){
+int a = 170;
+byte b = (byte)a;
+System.out.println(b);
+}
+}
+//2.
+public class Main {
+public static void main(String[] args){
+int a = 10;
+int b = 20;
+int c = a;
+a = b;
+b = c;
+System.out.println(a+" "+b");
+}
+}
+//3.
+public class Main {
+public static void main(String[] args){
+byte a = 10;
+byte b = 20;
+a+=b;
+System.out.println(a);
+}
+}
