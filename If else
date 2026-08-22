@@ -1,0 +1,56 @@
+//1.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int a=sc.nextInt();
+      int b=sc.nextInt();
+      if(a>b){
+        System.out.println(a);
+    }else{
+      System.out.println(b);
+    }
+      
+  }
+}
+
+//2.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int a=sc.nextInt();
+      
+      if(a%2==0){
+        System.out.println("EVEN");
+      }else{
+        System.out.println("ODD");
+      }
+      
+  }
+}
+
+//3.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      double a=sc.nextInt();
+      if(a==0){
+        System.out.println("ZERO");
+      }else if(a>0){
+        System.out.println("POSITIVE");
+      }else if(a<0){
+        System.out.println("NEGATIVE");
+      }else{
+        System.out.println("INVALID");
+      }
+      
+  }
+}
